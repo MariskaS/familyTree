@@ -1,0 +1,28 @@
+@import "variables/variables";
+
+::-webkit-scrollbar {
+  width: $scrollbar-size;
+  height: $scrollbar-size;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-bg);
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body {
+  font-family: $body-font-family;
+  font-size: $body-font-size;
+  line-height: $body-line-height;
+  overflow: hidden;
+  background-color: var(--body-color);
+}
+
+[disabled] {
+  opacity: .5;
+  cursor: default;
+  pointer-events: none;
+}

@@ -1,0 +1,10 @@
+@import "../../core/variables/variables";
+
+.ft-member-list {
+  margin: -$space-base-half;
+
+  a {
+    display: block;
+    padding: $space-base-half;
+  }
+}

@@ -1,0 +1,21 @@
+@import "mixin-btn-variant";
+
+/*
+  * Usage example:
+  * <a class="ft-btn--secondary-o"
+  *    href="..."
+  *    target="_blank"><span>...</span></a>
+  * or
+  * <button class="ft-btn--secondary-o"><span>...</span></button>
+ */
+
+.ft-btn--secondary-o {
+  @include btn-variant(
+      var(--btn-secondary-o-color),
+      var(--btn-secondary-o-border),
+      var(--btn-secondary-o-bg),
+      var(--btn-secondary-o-color--action),
+      var(--btn-secondary-o-border--action),
+      var(--btn-secondary-o-bg--action),
+  );
+}

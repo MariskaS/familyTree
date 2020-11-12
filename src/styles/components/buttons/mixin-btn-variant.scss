@@ -1,0 +1,54 @@
+@import "../../core/variables/variables";
+@import "../../core/mixins/mixin-flex-variant";
+@import "../../core/mixins/mixin-focus-variant";
+
+@mixin btn-variant($color, $border, $background, $color-action, $border-action, $background-action) {
+  height: $btn-height;
+  overflow: hidden;
+  min-width: $btn-width-min;
+  padding: $btn-spaces;
+  font-size: $btn-font-size;
+  font-weight: $btn-font-weight;
+  color: $color;
+  border: 1px solid $border;
+  background-color: $background;
+  cursor: pointer;
+  letter-spacing: 1.4px;
+  text-transform: capitalize;
+  text-decoration: none;
+  white-space: nowrap;
+  user-select: none;
+  transition: color $transition-base, background $transition-base;
+  border-radius: $border-radius-base;
+  @include flex-variant(inline-flex, center, center);
+  @include focus-variant;
+
+  &:hover {
+    text-decoration: none;
+    color: $color;
+  }
+
+  &:focus,
+  &:hover {
+      color: $color-action;
+      border-color: $border-action;
+      background-color: $background-action;
+  }
+
+  &.is-disabled,
+  &:disabled {
+    opacity: .6;
+    cursor: default;
+    pointer-events: none;
+  }
+
+  span {
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  // For Mobile.
+  @media (max-width: $screen-sx) {
+    width: 100%;
+  }
+}

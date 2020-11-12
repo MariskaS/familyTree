@@ -1,0 +1,9 @@
+@import "../core/variables/variables";
+
+.ft-section {
+  padding: $space-base-double $space-base;
+
+  &__container {
+    margin: 0 auto;
+  }
+}

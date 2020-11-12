@@ -1,0 +1,78 @@
+:root {
+  /*
+  * Basic theme colors.
+  */
+  --color-white: #FFFFFF;
+
+  --color-light: #fafafa;
+  --color-grey: #cfcfcf;
+
+  --color-primary-light: #FC9F76;
+  --color-primary: #EE7A45;
+  --color-primary-dark: #e76730;
+
+  --color-secondary-light: #66A8CE;
+  --color-secondary: #397598;
+
+  /*
+  * Body.
+  */
+  --body-color: var(--color-light);
+
+  /*
+  * Buttons.
+  */
+  // Primary.
+  --btn-primary-color: var(--color-white);
+  --btn-primary-border: var(--color-primary);
+  --btn-primary-bg: var(--color-primary);
+
+  --btn-primary-color--action: var(--color-white);
+  --btn-primary-border--action: var(--color-primary-dark);
+  --btn-primary-bg--action: var(--color-primary-dark);
+
+  // Primary-O.
+  --btn-primary-o-color: var(--color-primary);
+  --btn-primary-o-border: var(--color-primary);
+  --btn-primary-o-bg: transparent;
+
+  --btn-primary-o-color--action: var(--color-white);
+  --btn-primary-o-border--action: var(--color-primary-dark);
+  --btn-primary-o-bg--action: var(--color-primary-dark);
+
+  // Secondary.
+  --btn-secondary-color: var(--color-white);
+  --btn-secondary-border: var(--color-secondary-light);
+  --btn-secondary-bg: var(--color-secondary-light);
+
+  --btn-secondary-color--action: var(--color-white);
+  --btn-secondary-border--action: var(--color-secondary-light);
+  --btn-secondary-bg--action: var(--color-secondary-light);
+
+  // Secondary-O.
+  --btn-secondary-o-color: var(--color-secondary-light);
+  --btn-secondary-o-border: var(--color-secondary-light);
+  --btn-secondary-o-bg: transparent;
+
+  --btn-secondary-o-color--action: var(--color-white);
+  --btn-secondary-o-border--action: var(--color-secondary-light);
+  --btn-secondary-o-bg--action: var(--color-secondary-light);
+
+  /*
+  * Scrollbar.
+  */
+  --scrollbar-bg: var(--color-primary-dark);
+
+  /*
+  * Inputs.
+  */
+  --input-color: var(--body-color);
+  --input-border: var(--color-grey);
+  --input-bg: var(--color-white);
+  --input-border--action: var(--color-primary);
+
+  /*
+  * Custom Focus.
+  */
+  --focus-box: var(--color-primary-light);
+}

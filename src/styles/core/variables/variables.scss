@@ -1,0 +1,79 @@
+/*
+* Font.
+*/
+$font-size-base: 16px;
+$font-size-large: 24px;
+
+
+/*
+* Body.
+*/
+$body-font-family: Poppins, sans-serif;
+$body-line-height: 1.1;
+$body-font-size: $font-size-base;
+
+/*
+* Spaces.
+*/
+$space-base-small: 4px;
+$space-base: 16px;
+$space-base-double: $space-base*2;
+$space-base-half: $space-base/2;
+
+/*
+* Typography.
+*/
+$h3-font-size: $font-size-large;
+$h3-spaces: 0 0 $space-base;
+
+/*
+* Screens.
+*/
+$screen-sx: 460px;
+$screen-sm: 780px;
+$screen-md: 968px;
+$screen-lg: 1200px;
+
+/*
+* Scrollbar.
+*/
+$scrollbar-size: 8px;
+
+/*
+* Section.
+*/
+$section-spaces: $space-base-double $space-base;
+
+/*
+* Contact.
+*/
+$contact-col-space: $space-base-double;
+
+/*
+* Controls (use for input || selector || buttons).
+*/
+$control-height: 48px;
+$control-spaces: $space-base-small $space-base;
+
+/*
+* Buttons.
+*/
+$btn-height: $control-height;
+$btn-spaces: $control-spaces;
+$btn-icon-space: $space-base-small;
+$btn-font-size: $body-font-size;
+$btn-font-weight: 400;
+$btn-width-min: 160px;
+
+/*
+* Inputs.
+*/
+$input-height: $control-height;
+$input-spaces: $control-spaces;
+$input-font-size: $body-font-size;
+
+/*
+* Animation.
+*/
+$transition-base: 270ms ease-in-out;
+
